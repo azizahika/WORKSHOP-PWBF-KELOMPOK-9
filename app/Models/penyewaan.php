@@ -43,7 +43,7 @@ class penyewaan extends Model
 
     public function user()
     {
-        return $this->Hasmany(User::class, 'id_user');
+        return $this->guessBelongsToRelation(User::class, 'id_user');
     }
 }
 
