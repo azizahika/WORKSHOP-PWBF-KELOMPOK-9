@@ -19,6 +19,7 @@ Route::get('/', function () {
     return view('index');
 });
 
+<<<<<<< Updated upstream
 Route::get('/about', function () {
     return view('about');
 });
@@ -37,11 +38,19 @@ Route::get('/services', function () {
 
 Route::get('/contact', function () {
     return view('contact');
+=======
+Route::get('/home', function () {
+    return view('index');
+>>>>>>> Stashed changes
 });
 
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+<<<<<<< Updated upstream
 
 
 // Route::get('/about', [App\Http\Controllers\AbputController::class,'index'])->name('about');
+=======
+Route::post('/index', 'Auth\indexController@index')->name('index');
+>>>>>>> Stashed changes

@@ -30,7 +30,7 @@
    </head>
    <body>
       <!-- header section start -->
-      <!-- <div class="header_section">
+      <div class="header_section">
          <div class="container">
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
                <a class="navbar-brand"href="index.html"><img src="images/logo.png"></a>
@@ -63,7 +63,7 @@
                </div>
             </nav>
          </div>
-      </div> -->
+      </div>
       <!-- header section end -->
       <div class="call_text_main">
          <div class="container">
