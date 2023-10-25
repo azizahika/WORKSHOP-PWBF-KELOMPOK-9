@@ -19,7 +19,29 @@ Route::get('/', function () {
     return view('index');
 });
 
+Route::get('/about', function () {
+    return view('about');
+});
+
+Route::get('/client', function () {
+    return view('client');
+});
+
+Route::get('/gallery', function () {
+    return view('gallery');
+});
+
+Route::get('/services', function () {
+    return view('services');
+});
+
+Route::get('/contact', function () {
+    return view('contact');
+});
 
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+
+
+// Route::get('/about', [App\Http\Controllers\AbputController::class,'index'])->name('about');
