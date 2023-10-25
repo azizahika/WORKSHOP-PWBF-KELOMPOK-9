@@ -40,22 +40,30 @@
                <div class="collapse navbar-collapse" id="navbarSupportedContent">
                   <ul class="navbar-nav ml-auto">
                      <li class="nav-item">
-                        <a class="nav-link" href="index">Home</a>
+                     <a class="nav-link" href="{{ route('home') }}">Home</a>
                      </li>
                      <li class="nav-item">
-                        <a class="nav-link" href="about">About</a>
+                     <a class="nav-link" href="{{ route('about') }}">About</a>
                      </li>
                      <li class="nav-item">
-                        <a class="nav-link" href="services">Services</a>
+                     <a class="nav-link" href="{{ route('services') }}">services</a>
                      </li>
                      <li class="nav-item">
-                        <a class="nav-link" href="gallery">Vehicles</a>
+                     <a class="nav-link" href="{{ route('gallery') }}">vehicles</a>
                      </li>
                      <li class="nav-item">
-                        <a class="nav-link" href="client">Client</a>
+                     <a class="nav-link" href="{{ route('client') }}">client</a>
                      </li>
                      <li class="nav-item">
-                        <a class="nav-link" href="contact">Contact</a>
+                     <a class="nav-link" href="{{ route('contact') }}">contact</a>
+                     </li>
+                     </li>
+                     <li class="nav-item">
+                     <a class="nav-link" href="{{ route('login') }}">login</a>
+                     </li>
+                     </li>
+                     <li class="nav-item">
+                     <a class="nav-link" href="{{ route('register') }}">register</a>
                      </li>
                   </ul>
                   <form class="form-inline my-2 my-lg-0">
