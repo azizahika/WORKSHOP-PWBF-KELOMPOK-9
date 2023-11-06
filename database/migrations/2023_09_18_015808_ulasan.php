@@ -14,7 +14,7 @@ return new class extends Migration
         Schema::create('ulasan', function (Blueprint $table) {
             $table->id('id_ulasan')->increments();
             $table->unsignedBigInteger('id_user');
-            $table->foreign('id_user')->references('id_user')->on('Users');
+            $table->foreign('id_user')->references('id')->on('Users');
             $table->string('deskripsi_ulasan');
             $table->timestamps();
         });

@@ -9,6 +9,8 @@ use App\Http\Controllers\ClientController;
 use App\Http\Controllers\ContactController;
 use App\Http\Controllers\GalleryController;
 use App\Http\Controllers\ServicesController;
+use App\Http\Controllers\BooknowController;
+use App\Http\Controllers\DetailsCarController;
 
 /*
 |--------------------------------------------------------------------------
@@ -62,6 +64,10 @@ Route::get('/contact', [ContactController::class, 'contact'])->name('contact');
 Route::get('/gallery', [GalleryController::class, 'gallery'])->name('gallery');
 
 Route::get('/services', [ServicesController::class, 'services'])->name('services');
+
+Route::get('/booknow', [BooknowController::class, 'booknow'])->name('booknow');
+
+Route::get('/detailscar', [DetailscarController::class, 'detailscar'])->name('detailscar');
 
 // Route::get('/about', [App\Http\Controllers\AbputController::class,'index'])->name('about');
 

@@ -1,5 +1,3 @@
-
-@section('navbar')
 <div class="header_section">
          <div class="container">
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -42,4 +40,13 @@
             </nav>
          </div>
       </div>
-@endsection
+      <div class="call_text_main">
+         <div class="container">
+            <div class="call_taital">
+               <div class="call_text"><a href="#"><i class="fa fa-map-marker" aria-hidden="true"></i><span class="padding_left_15">Location</span></a></div>
+               <div class="call_text"><a href="#"><i class="fa fa-phone" aria-hidden="true"></i><span class="padding_left_15">(+62) 85855799748</span></a></div>
+               <div class="call_text"><a href="#"><i class="fa fa-envelope" aria-hidden="true"></i><span class="padding_left_15">Rent4u@gmail.com</span></a></div>
+            </div>
+         </div>
+      </div>
+

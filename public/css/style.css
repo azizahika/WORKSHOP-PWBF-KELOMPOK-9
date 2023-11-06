@@ -223,10 +223,11 @@ button {
 .header_bg {
     width: 100%;
     float: left;
-    background: #1d1d1d
+    background: #1d1d1d;
     height: auto;
     background-size: 100%;
 }
+
 
 .bg-light {
     background-color: transparent !important;
@@ -1111,6 +1112,34 @@ textarea#comment::placeholder {
 
 /* copyright section end */
 
-.margin_top90 {
-    margin-top: 90px;
-}
+
+    .mobil {
+        background-color: #dbd7d7;
+        padding: 20px;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(10, 10, 10, 0.1);
+        margin: 20px 0;
+    }
+
+    h1 {
+        font-size: 24px;
+        font-weight: bold;
+        margin-top: 0;
+    }
+
+    ul {
+        list-style-type: none;
+        padding: 0;
+    }
+
+    li {
+        margin-bottom: 10px;
+    }
+
+    li strong {
+        margin-right: 10px;
+    }
+
+    p {
+        margin-bottom: 10px;
+    }
